@@ -1,0 +1,218 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12-Nov-2019, 10:26:33 AM
+    Author     : nicolesawler
+*/
+
+
+body,html{
+    background:#eee;
+    font-family:arial,helvetica;
+    color:#20323b;
+}
+*{
+    box-sizing:border-box;
+    outline:none;
+}
+
+
+/*Typography*/
+
+h1{
+    color:#274657;
+}
+a{
+  color:#698b9d;
+}
+
+
+/*Layout*/
+
+.wrapper{
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0;
+}
+.container{
+    max-width:888px;
+    background: #cbdbe3;
+    margin:0 auto;
+    padding:10px;
+}
+
+header{
+    max-width:100%;
+    background: #fff;
+    margin:0px auto;
+    padding:10px 20px;
+}
+header a{
+    font-size:26px;
+}
+header .right{
+    float:right;
+}
+nav{
+    width:100%;
+    background:white;
+    padding:10px 20px;
+}
+nav a{
+   padding:10px 10px 10px 0;
+}
+
+footer{
+    max-width:888px;
+    background: white;
+    margin:20px auto 0 auto;
+    padding:10px;
+}
+footer p{
+    text-align:center;
+    font-size:11px;
+}
+.content{
+    padding:25px;
+    background: #fff;
+    width:100%;
+    margin:10px 0;
+}
+.clear{
+    clear:both;
+}
+
+
+
+
+
+
+/* Forms */
+
+input{
+    background:white;
+    min-width:350px;
+    padding:7px;
+    
+    border:1px solid #eee;
+}
+textarea{
+    background:white;
+    min-width:350px;
+    padding:7px;
+    min-height:150px;
+    border:1px solid #eee;
+}
+input[type=submit]{
+    background:#698b9d;
+    min-width:350px;
+    padding:7px;
+    color:white;
+    border:1px solid #eee;
+}
+
+/* Tables */
+
+table.table{
+    width:100%;
+    background:white;
+    border:1px solid #eee;
+    margin:20px auto;
+    
+}
+.table td{
+    background:white;
+    width:200px;
+    padding:7px;
+}
+.table tr{
+    background:white;
+}
+
+
+
+
+
+
+/*add form*/
+
+
+.saved{
+    background:#e2ffc2;
+    border:1px solid darkgreen;
+    color:darkgreen;
+    padding:20px;
+}
+
+
+
+.add_form input,.add_form textarea{
+    width:100%;
+    display:block;
+    border:1px solid #ccc;
+    padding:5px;
+/*    resize: none;*/
+}
+
+.add_form input[name=submit]{
+    background:#474747;
+    color:white;
+    border:1px solid black;
+    font-weight:bold;
+    width:200px;
+}
+
+.add_form  select{
+    width:100%;
+}
+
+
+
+/*View*/
+
+img.image {
+    border:1px solid #ccc;
+    padding:15px;
+    background:white;
+    max-width:300px;
+    float:left;
+    margin:5px 15px 15px 0;
+}
+.meta{
+    font-size:13px;
+    
+}
+.meta span{
+    padding-right:25px;
+    
+    
+    
+}
+
+
+
+/*List All*/
+
+.item{
+    width:270px;
+    height:250px;
+    float:left;
+    border:1px solid #eee;
+    margin:10px;
+}
+
+
+.item img.image{
+    border:2px solid #ccc;
+    padding:15px;
+    background:white;
+    max-width:220px;
+    max-height:195px;
+    float:none;
+    display:block;
+    margin:5px 15px 15px 0;
+}
